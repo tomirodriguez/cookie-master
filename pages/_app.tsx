@@ -12,6 +12,9 @@ type Props = AppProps & {
 function MyApp({ Component, pageProps }: Props) {
   const { theme } = useTheme();
 
+  // To change the theme without refresh, there should be a context wrapping the app to control it.
+  // Out of scope for this app
+
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
