@@ -6,7 +6,9 @@ import { Navbar } from '../ui';
 export const Layout: FC<PropsWithChildren> = ({ children }) => {
   return (
     <>
-      <Head>{/*  */}</Head>
+      <Head>
+        <title>Cookie Master</title>
+      </Head>
       <nav>
         <Navbar />
       </nav>
